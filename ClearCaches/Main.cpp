@@ -37,7 +37,7 @@ int main(int argc, const char* argv[])
 	cin >> username;
 
 	string appdata_roaming = "C:\\Users\\" + username + "\\AppData\\Roaming\\";
-	string appdata_local = "C:\\Users\\" + username + "\\AppData\\Roaming\\";
+	string appdata_local = "C:\\Users\\" + username + "\\AppData\\Local\\";
 	string nvidia = appdata_roaming + "NVIDIA\\GLCache\\";
 	string ts3_chats = appdata_roaming + "TS3Client\\chats\\";
 	string ts3_cache = appdata_roaming + "TS3Client\\cache\\";
@@ -60,4 +60,6 @@ int main(int argc, const char* argv[])
 
 	string exit = "";
 	cin >> exit;
+
+	return 0;
 }
